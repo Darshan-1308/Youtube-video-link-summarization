@@ -21,8 +21,6 @@ os.environ["LANGCHAIN_PROJECT"] = os.getenv("LANGCHAIN_PROJECT")
 os.environ['GROQ_API_KEY'] = os.getenv("GROQ_API_KEY")
 groq_api_key = os.getenv("GROQ_API_KEY")
 
-# groq_api_key = st.secrets["GROQ_API_KEY"]["value"]  
-# langchain_api_key = st.secrets["LANGCHAIN_API_KEY"]["value"]
 
 #Function to Validate the YouTube URL.
 def is_valid_youtube_url(url):
